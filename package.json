@@ -1,0 +1,13 @@
+{
+  "name": "vuepress-plugin-blogger-for-vuepress2",
+  "version": "0.1.0",
+  "keywords": [
+    "vuepress-plugin",
+    "vuepress2"
+  ],
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT"
+}
