@@ -1,9 +1,9 @@
 {
-  "name": "vuepress-plugin-blogger-for-vuepress2",
+  "name": "vuepress-plugin-simple-blog",
   "version": "0.1.0",
   "keywords": [
     "vuepress-plugin",
-    "vuepress2"
+    "vuepress 2"
   ],
   "main": "lib/index.js",
   "files": [
