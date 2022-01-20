@@ -5,7 +5,7 @@
     "vuepress-plugin",
     "vuepress2"
   ],
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
     "lib"
   ],
