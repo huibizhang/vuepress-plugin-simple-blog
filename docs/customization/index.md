@@ -1,8 +1,8 @@
 ---
-title: Customizaion
+title: Customization
 ---
 
-# Customizaion
+# Customization
 
 ::: tip
 Before you learn about the plugin customizing, you need to see the [Guide](/guide/) sectoin.
