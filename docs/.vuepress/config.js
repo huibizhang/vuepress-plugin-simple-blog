@@ -33,8 +33,8 @@ module.exports = {
         link: '/guide/'
       },
       {
-        text: 'Customizaion',
-        link: '/customizaion/'
+        text: 'Customization',
+        link: '/customization/'
       },
       {
         text: 'APIs',
@@ -51,10 +51,10 @@ module.exports = {
           ]
         },
       ],
-      '/customizaion/': [
+      '/customization/': [
         {
-          text: 'Customizaion',
-          link: '/customizaion/',
+          text: 'Customization',
+          link: '/customization/',
         },
       ],
       '/api/': [
