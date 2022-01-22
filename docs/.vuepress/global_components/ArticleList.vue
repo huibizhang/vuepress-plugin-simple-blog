@@ -33,9 +33,12 @@ export default {
   },
   methods:{
     getContentOnlyText (contentHTML) {
-      const preHtml = document.createElement("div")
-      preHtml.innerHTML = contentHTML
-      return preHtml.innerText
+      if (typeof document !== 'undefined') {
+        const preHtml = document.createElement("div")
+        preHtml.innerHTML = contentHTML
+        return preHtml.innerText
+      }
+      return contentHTML
     },
   },
 }
