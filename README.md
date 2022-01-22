@@ -13,7 +13,7 @@ To use this plugin, just add plugin name to `plugins` option of `.vuepress/confi
 
 ```javascript
 module.exports = {
-  plugins: ['vuepress-plugin-simple-blogger']
+  plugins: ['vuepress-plugin-simple-blog']
 }
 ```
 And Vuepress'll compiled the `.md` files in `docs/post/` directory. All posts will **have the permalink** like `https://www.example.com/post/xxxxxx/` by using **permalinkPattern:** `/post/:slug`.
@@ -25,7 +25,7 @@ To customize your blog permalink, layout or files location, we need to see the d
 module.exports = {
   plugins: [
     ...
-    ['vuepress-plugin-simple-blogger',{
+    ['vuepress-plugin-simple-blog',{
       dir: /^(\/post\/)/,
       permalinkPattern: "/post/:slug",
       layout: "Layout",
@@ -41,7 +41,7 @@ So, you can just customize to use your layout like:
 module.exports = {
   plugins: [
     ...
-    ['vuepress-plugin-simple-blogger',{
+    ['vuepress-plugin-simple-blog',{
       layout: "PostLayout",
     }],
     ...
@@ -55,7 +55,7 @@ Or you can change your post link style like `/article/2022/01/20/HelloWorld/` by
 module.exports = {
   plugins: [
     ...
-    ['vuepress-plugin-simple-blogger',{
+    ['vuepress-plugin-simple-blog',{
       permalinkPattern: "/article/:year/:month/:slug",
     }],
     ...
@@ -69,7 +69,7 @@ If you don't like to put your articles in the `docs/post/` folder, you also can 
 module.exports = {
   plugins: [
     ...
-    ['vuepress-plugin-simple-blogger',{
+    ['vuepress-plugin-simple-blog',{
       dir: /^(\/blog\/)/, // example for `docs/blog/`
     }],
     ...
