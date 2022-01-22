@@ -9,10 +9,10 @@ module.exports = {
       lang: 'en-US',
       description: 'A simple blog plugin for Vuepress v2',
     },
-    '/zh/': {
-      lang: 'zh-TW',
-      description: '專為 Vuepress v2 而生的簡易部落格插件',
-    },
+    // '/zh/': {
+    //   lang: 'zh-TW',
+    //   description: '專為 Vuepress v2 而生的簡易部落格插件',
+    // },
   },
   themeConfig: {
     repo: 'https://github.com/huibizhang/vuepress-plugin-simple-blog',
