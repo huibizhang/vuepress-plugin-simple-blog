@@ -26,7 +26,7 @@ My first vuepress blog.
 ```
 
 After this, create a `.vuepress` folder in `docs` and add a `config.js` file into the `.vuepress` folder. Here is the example of `config.js`
-```js
+```js:no-line-numbers
 module.exports = {
   title: 'My vuepress blog',
   description: 'This blog is created by Vuepress v2 and vuepress-plugin-simple blog',
@@ -35,7 +35,7 @@ module.exports = {
 ```
 
 And the directory structure will like:
-```
+```:no-line-numbers
 └─ docs
    ├─ .vuepress
    │  ├─ config.js
@@ -54,11 +54,10 @@ yarn add -D vuepress-plugin-simple-blog
 
 ## Usage
 Add plugin name to `plugins` option of `.vuepress/config.js`.
-
-```js
+```js:no-line-numbers
 module.exports = {
   // ...
-  plugins: ['vuepress-plugin-simple-blogger']
+  plugins: ['vuepress-plugin-simple-blog']
   // ...
 }
 ```
@@ -80,8 +79,22 @@ TailwindCSS is the best CSS framework that I recommand you to use.
 In vuepress, there is a **easy way**...
 ```
 
+The directory structure:
+```diff:no-line-numbers
+  └─ docs
+    ├─ .vuepress
+    │  ├─ config.js
++   ├─ post
++      └─ 2022-01-20-hello-world.md
++      └─ 2022-01-22-using-tailwindcss-in-vuepress2.md
+    └─ readme.md
+  └─ package.json
+    ...
+```
+
 After you put it, launch your dev server, you can see the articles are **all can visit**. The link of article will be like `{your-sites-domain}/post/xxxxxx/`.
 
+#### Demo
 In my case, there is the artcle name and the link:
 
 - `docs/post/2022-01-20-hello-world.md`
@@ -92,3 +105,4 @@ In my case, there is the artcle name and the link:
 <!-- And Vuepress'll compiled the `.md` files in `docs/post/` directory. All posts will **have the permalink** like `https://www.example.com/post/xxxxxx/` by using **permalinkPattern:** `/post/:slug`. -->
 
 ## Customization
+See [Customizaion](/customizaion/) part to learn about customization.

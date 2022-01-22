@@ -1,3 +1,4 @@
+const { path } = require('@vuepress/utils')
 const vuepress_plugin_simple_blog = require('../../lib/index.js')
 
 module.exports = {
@@ -15,6 +16,7 @@ module.exports = {
   },
   themeConfig: {
     repo: 'https://github.com/huibizhang/vuepress-plugin-simple-blog',
+    contributors: false,
     locales: {
       '/': {
         selectLanguageName: 'English',
@@ -31,6 +33,10 @@ module.exports = {
         link: '/guide/'
       },
       {
+        text: 'Customizaion',
+        link: '/customizaion/'
+      },
+      {
         text: 'APIs',
         link: '/api/'
       },
@@ -40,20 +46,33 @@ module.exports = {
         {
           text: 'Guide',
           children: [
-            '/guide/index.md',
-            '/guide/getting-started.md',
+            '/guide/',
+            '/guide/getting-started/',
           ]
         },
       ],
-      '/reference/': [
+      '/customizaion/': [
         {
-          text: 'Reference',
-          children: ['/reference/cli.md', '/reference/config.md'],
+          text: 'Customizaion',
+          link: '/customizaion/',
+        },
+      ],
+      '/api/': [
+        {
+          text: 'Client APIs',
+          link: '/api/',
+          children: [
+            '/api/pagination/',
+            '/api/tag-list/',
+          ]
         },
       ],
     },
   },
   plugins: [
     vuepress_plugin_simple_blog,
+    ['@vuepress/register-components', {
+      componentsDir: path.resolve(__dirname, './global_components'),
+    }],
   ]
 }
