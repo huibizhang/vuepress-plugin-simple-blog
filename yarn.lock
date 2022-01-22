@@ -1455,11 +1455,6 @@ vue@^3.2.26:
     "@vue/server-renderer" "3.2.28"
     "@vue/shared" "3.2.28"
 
-vuepress-plugin-simple-blog@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-simple-blog/-/vuepress-plugin-simple-blog-0.2.0.tgz#0d44434b1948a0aa138cb5e9f4384c543f96d321"
-  integrity sha512-sj+sCvAXwKR3nvvLA3wV0zNi8fS8snrQa57s0jGhnv27IFZPlTo5/zlg4CRLaUayJkEKH0cLQhJAgd5xXbbFcQ==
-
 vuepress-vite@2.0.0-beta.34:
   version "2.0.0-beta.34"
   resolved "https://registry.yarnpkg.com/vuepress-vite/-/vuepress-vite-2.0.0-beta.34.tgz#a063df2e0a80cc56745f517590c74650992c1252"
