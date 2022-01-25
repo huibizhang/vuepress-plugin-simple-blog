@@ -31,12 +31,8 @@ For more information about the plugin, you can [read the documents](https://vuep
 See [Customization](https://vuepress-plugin-simple-blog.vercel.app/customization/) section of the document.
 
 ## Client APIs
-<<<<<<< HEAD
-See [Client APIs](https://vuepress-plugin-simple-blog.vercel.app/api/) section of document.
-=======
 See [Client APIs](https://vuepress-plugin-simple-blog.vercel.app/api/) section of the document.
 
 ---
 ## License
 MIT
->>>>>>> 4c401a0... fix: typo and description
