@@ -1,6 +1,14 @@
 {
   "name": "vuepress-plugin-simple-blog",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
   "keywords": [
     "vuepress-plugin",
     "vuepress 2",
@@ -10,14 +18,6 @@
     "blog"
   ],
   "license": "MIT",
-  "main": "lib/index.js",
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
-  },
   "devDependencies": {
     "@vuepress/plugin-container": "^2.0.0-beta.33",
     "@vuepress/plugin-register-components": "^2.0.0-beta.33",
