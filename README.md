@@ -1,5 +1,6 @@
 <p align="center">
-<img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-simple-blog?style=for-the-badge">
+<img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/huibizhang/vuepress-plugin-simple-blog/master?label=NPM&style=for-the-badge">
+<!-- <img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-simple-blog?style=for-the-badge"> -->
 <!-- <img alt="GitHub Workflow Status (branch)" src="https://img.shields.io/github/workflow/status/huibizhang/vuepress-plugin-simple-blog/npm_publish/v1.0.1?label=PUBLISH&style=for-the-badge"> -->
 <img alt="npm" src="https://img.shields.io/npm/dt/vuepress-plugin-simple-blog?style=for-the-badge">
 </p>
