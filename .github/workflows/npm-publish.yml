@@ -4,9 +4,12 @@
 name: npm_publish
 
 on:
+  # # publish by release using new tag on github
   push:
     tags:
       - 'v[0-9]+.[0-9]+.[0-9]+*'
+      
+  # # publish by merged a pr to master
   # pull_request:
   #   branches: [ master ]
 
