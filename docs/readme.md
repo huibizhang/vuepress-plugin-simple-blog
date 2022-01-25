@@ -8,9 +8,9 @@ actions:
 features:
   - title: Vuepress v2 Supported
     details: Still waiting for official blog plugin upgrades to support vuepress@next? You may try this!
-  - title: Keep it Simple
+  - title: Keep It Simple
     details: There is no any complicate you need to do. Easy to learn, easy for use.
-  - title: API for costumization
+  - title: API For Costumization
     details: We provide Pagination API and TagList API for you to costumize your own list.
-footer: MIT Licensed | Copyright © 2021-present huibizhang Rabbit
+footer: MIT Licensed | Copyright © 2022-present huibizhang Rabbit
 ---
