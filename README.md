@@ -23,6 +23,3 @@ See [Customization](https://vuepress-plugin-simple-blog.vercel.app/customization
 
 ## Client APIs
 See [Client APIs](https://vuepress-plugin-simple-blog.vercel.app/api/) section of document.
-
----
-## MIT
