@@ -1,3 +1,5 @@
+[![Node.js Package](https://github.com/huibizhang/vuepress-plugin-simple-blog/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/huibizhang/vuepress-plugin-simple-blog/actions/workflows/npm-publish.yml)
+
 # vuepress-plugin-simple-blog
 
 Referred to the Official plugin [@vuepress/plugin-blog](https://github.com/vuepress/vuepress-plugin-blog), support Vuepress v2 to make a simple blog.
