@@ -1,13 +1,10 @@
 <p align="center">
+<img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-simple-blog?style=for-the-badge">
+<img alt="npm" src="https://img.shields.io/npm/dt/vuepress-plugin-simple-blog?style=for-the-badge">
+</p>
+
 
 # vuepress-plugin-simple-blog
-  <img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-simple-blog?style=for-the-badge">
-  &nbsp;
-  <img alt="npm" src="https://img.shields.io/npm/dt/vuepress-plugin-simple-blog?style=for-the-badge">
-</p>
-<!-- <img alt="npm" src="https://img.shields.io/npm/dt/vuepress-plugin-simple-blog?label=下載&style=for-the-badge"> -->
-
-&nbsp;
 The **`vuepress-plugin-simple-blog`** is a plugin for vuepress v2 that can make your vuepress be a simple blog rapidly, and this plugin is referring to the official plugin [@vuepress/plugin-blog](https://github.com/vuepress/vuepress-plugin-blog).
 
 ## Installation
