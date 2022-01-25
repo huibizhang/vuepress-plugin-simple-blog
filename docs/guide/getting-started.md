@@ -13,6 +13,7 @@ If you have created a ***vuepress v2*** project, just move to [Installation](#In
 First, you need a vuepress v2 project, just create a folder and run following commands:
 
 ```bash:no-line-numbers
+cd {your-project-name}
 yarn init
 git init
 yarn add -D vuepress@next
@@ -63,7 +64,7 @@ module.exports = {
 ```
 
 ### Posts Directory
-Create a `post` folder in `docs`, and put your article into the folder. In my case, I'll put `2022-01-20-hello-world.md` and `2022-01-22-using-tailwindcss-in-vuepress2.md` into the `docs/post/`.
+Create a `post` folder in `docs`, and put your articles into the folder. In my case, I'll put `2022-01-20-hello-world.md` and `2022-01-22-using-tailwindcss-in-vuepress2.md` into the `docs/post/`.
 
 Here is the example of `2022-01-20-hello-world.md`:
 ```md
@@ -92,7 +93,7 @@ The directory structure:
     ...
 ```
 
-After you put it, launch your dev server, you can see the articles are **all can visit**. The link of article will be like `{your-sites-domain}/post/xxxxxx/`.
+After you put it, launch your dev server and you can see the articles are **all can visit** by the link like `{your-sites-domain}/post/xxxxxx/`.
 
 #### Demo
 In my case, there is the artcle name and the link:
@@ -105,4 +106,4 @@ In my case, there is the artcle name and the link:
 <!-- And Vuepress'll compiled the `.md` files in `docs/post/` directory. All posts will **have the permalink** like `https://www.example.com/post/xxxxxx/` by using **permalinkPattern:** `/post/:slug`. -->
 
 ## Customization
-See [Customizaion](/customizaion/) part to learn about customization.
+See [Customization](/customization/) part to learn about customization.
