@@ -1,9 +1,13 @@
 {
   "name": "vuepress-plugin-simple-blog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "vuepress-plugin",
-    "vuepress 2"
+    "vuepress 2",
+    "vuejs",
+    "vue",
+    "vue 3",
+    "blog"
   ],
   "license": "MIT",
   "main": "lib/index.js",
