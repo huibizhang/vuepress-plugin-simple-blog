@@ -16,6 +16,9 @@ module.exports = {
   },
   themeConfig: {
     repo: 'https://github.com/huibizhang/vuepress-plugin-simple-blog',
+    docsRepo: 'https://github.com/huibizhang/vuepress-plugin-simple-blog',
+    docsBranch: 'master',
+    docsDir: 'docs',
     contributors: false,
     locales: {
       '/': {
