@@ -6,8 +6,10 @@
     "lib"
   ],
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "npm-run-all -p tailwind vuepress:dev",
+    "build": "vuepress build docs",
+    "vuepress:dev": "vuepress dev docs",
+    "tailwind": "tailwindcss build -o ./lib/tailwind.css -w"
   },
   "keywords": [
     "vuepress-plugin",
@@ -19,9 +21,14 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-container": "^2.0.0-beta.33",
-    "@vuepress/plugin-register-components": "^2.0.0-beta.33",
-    "@vuepress/plugin-toc": "^2.0.0-beta.33",
-    "vuepress": "^2.0.0-beta.34"
-  }
+    "autoprefixer": "^10.4.2",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.7",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "tailwindcss": "^3.0.23",
+    "vuepress": "^2.0.0-beta.66",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.66"
+  },
+  "dependencies": {}
 }
