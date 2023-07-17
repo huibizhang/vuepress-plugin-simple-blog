@@ -42,6 +42,10 @@ export default defineUserConfig({
         link: "/customization/",
       },
       {
+        text: "Components",
+        link: "/components/",
+      },
+      {
         text: "APIs",
         link: "/api/",
       },
