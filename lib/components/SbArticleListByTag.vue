@@ -1,6 +1,6 @@
 <template>
   <div
-    v-if="filter"
+    v-if="filter && pagination"
     class="inset-0 mx-auto flex w-full flex-col items-center space-y-3 py-3"
   >
     <SbArticleCard
@@ -23,12 +23,12 @@ export default {
   },
   data() {
     return {
-      pagination: usePageData().value.$pagination,
+      pagination: [],
     };
   },
   mounted() {
     if (this.filter) {
-      this.pagination = this.pagination.filter((p) =>
+      this.pagination = usePageData().value.$pagination.filter((p) =>
         p.tags.includes(this.filter)
       );
     }
